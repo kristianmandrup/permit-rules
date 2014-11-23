@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/kristianmandrup/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/kristianmandrup/my-projects/devs/permit-rules',
+5 verbose install   [ 'access-request',
+5 verbose install     'callback-timer',
+5 verbose install     'sleep',
+5 verbose install     'LiveScript',
+5 verbose install     'browserify',
+5 verbose install     'es6ify',
+5 verbose install     'mocha',
+5 verbose install     'chai',
+5 verbose install     'util',
+5 verbose install     'expect.js',
+5 verbose install     'should',
+5 verbose install     'istanbul',
+5 verbose install     'grunt',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'grunt-istanbul',
+5 verbose install     'grunt-istanbul-coverage' ] ]
+6 info preinstall permit-authorize@0.6.0
+7 warn package.json util@0.10.3 util is also the name of a node core module.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping browserify@x /Users/kristianmandrup/my-projects/devs/permit-rules
+10 verbose already installed skipping es6ify@x /Users/kristianmandrup/my-projects/devs/permit-rules
+11 verbose already installed skipping mocha@x /Users/kristianmandrup/my-projects/devs/permit-rules
+12 verbose already installed skipping chai@x /Users/kristianmandrup/my-projects/devs/permit-rules
+13 verbose already installed skipping util@x /Users/kristianmandrup/my-projects/devs/permit-rules
+14 verbose already installed skipping expect.js@x /Users/kristianmandrup/my-projects/devs/permit-rules
+15 verbose already installed skipping should@x /Users/kristianmandrup/my-projects/devs/permit-rules
+16 verbose already installed skipping istanbul@x /Users/kristianmandrup/my-projects/devs/permit-rules
+17 verbose already installed skipping grunt@x /Users/kristianmandrup/my-projects/devs/permit-rules
+18 verbose already installed skipping grunt-mocha-test@x /Users/kristianmandrup/my-projects/devs/permit-rules
+19 verbose already installed skipping grunt-istanbul@x /Users/kristianmandrup/my-projects/devs/permit-rules
+20 verbose already installed skipping grunt-istanbul-coverage@x /Users/kristianmandrup/my-projects/devs/permit-rules
+21 verbose cache add [ 'access-request@x', null ]
+22 verbose cache add spec="access-request@x" args=["access-request@x",null]
+23 verbose parsed spec { raw: 'access-request@x',
+23 verbose parsed spec   scope: null,
+23 verbose parsed spec   name: 'access-request',
+23 verbose parsed spec   rawSpec: 'x',
+23 verbose parsed spec   spec: '*',
+23 verbose parsed spec   type: 'range' }
+24 verbose already installed skipping callback-timer@x /Users/kristianmandrup/my-projects/devs/permit-rules
+25 verbose parsed spec { raw: 'access-request@x',
+25 verbose parsed spec   scope: null,
+25 verbose parsed spec   name: 'access-request',
+25 verbose parsed spec   rawSpec: 'x',
+25 verbose parsed spec   spec: '*',
+25 verbose parsed spec   type: 'range' }
+26 verbose addNamed [ 'access-request', '*' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile a95082a9-access-request access-request@*
+29 verbose lock access-request@* /Users/kristianmandrup/.npm/a95082a9-access-request.lock
+30 silly addNameRange { name: 'access-request', range: '*', hasData: false }
+31 verbose mapToRegistry name access-request
+32 verbose mapToRegistry uri https://registry.npmjs.org/access-request
+33 verbose already installed skipping sleep@x /Users/kristianmandrup/my-projects/devs/permit-rules
+34 verbose request on initialization, where is /access-request
+35 verbose request after pass 1, where is /access-request
+36 verbose request url raw /access-request
+37 verbose request resolving registry [ 'https://registry.npmjs.org/', './access-request' ]
+38 verbose request after pass 2, where is https://registry.npmjs.org/access-request
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 17:49:45
+41 verbose request id 1ee28dd939437941
+42 http request GET https://registry.npmjs.org/access-request
+43 verbose already installed skipping LiveScript@x /Users/kristianmandrup/my-projects/devs/permit-rules
+44 http 404 https://registry.npmjs.org/access-request
+45 verbose headers { date: 'Sun, 23 Nov 2014 16:49:46 GMT',
+45 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'content-length': '52',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   'x-served-by': 'cache-fra1230-FRA',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1416761385.740545,VS0,VE716',
+45 verbose headers   'keep-alive': 'timeout=10, max=50',
+45 verbose headers   connection: 'Keep-Alive' }
+46 silly registry.get cb [ 404,
+46 silly registry.get   { date: 'Sun, 23 Nov 2014 16:49:46 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=0',
+46 silly registry.get     'content-length': '52',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+46 silly registry.get     'x-cache': 'MISS',
+46 silly registry.get     'x-cache-hits': '0',
+46 silly registry.get     'x-timer': 'S1416761385.740545,VS0,VE716',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly lockFile a95082a9-access-request access-request@*
+48 silly lockFile a95082a9-access-request access-request@*
+49 verbose stack Error: 404 Not Found: access-request
+49 verbose stack     at RegClient.<anonymous> (/Users/kristianmandrup/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+49 verbose stack     at Request._callback (/Users/kristianmandrup/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+49 verbose stack     at Request.self.callback (/Users/kristianmandrup/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:236:22)
+49 verbose stack     at Request.emit (events.js:98:17)
+49 verbose stack     at Request.<anonymous> (/Users/kristianmandrup/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+49 verbose stack     at Request.emit (events.js:117:20)
+49 verbose stack     at IncomingMessage.<anonymous> (/Users/kristianmandrup/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+49 verbose stack     at IncomingMessage.emit (events.js:117:20)
+49 verbose stack     at _stream_readable.js:943:16
+49 verbose stack     at process._tickCallback (node.js:419:13)
+50 verbose statusCode 404
+51 verbose pkgid access-request
+52 verbose cwd /Users/kristianmandrup/my-projects/devs/permit-rules
+53 error Darwin 14.0.0
+54 error argv "node" "/Users/kristianmandrup/.nvm/v0.10.32/bin/npm" "install"
+55 error node v0.10.32
+56 error npm  v2.0.0
+57 error code E404
+58 error 404 Not Found: access-request
+58 error 404
+58 error 404 'access-request' is not in the npm registry.
+58 error 404 You should bug the author to publish it (or use the name yourself!)
+58 error 404 It was specified as a dependency of 'permit-authorize'
+58 error 404
+58 error 404 Note that you can also install from a
+58 error 404 tarball, folder, http url, or git url.
+59 verbose exit [ 1, true ]
