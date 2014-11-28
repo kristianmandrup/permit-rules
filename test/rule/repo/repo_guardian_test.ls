@@ -1,13 +1,13 @@
-requires  = require '../../../../requires'
+require '../../test_setup'
 
-requires.test 'test_setup'
+expect  = require 'chai' .expect
+index   = require '../../../index'
+repo    = index.repo
 
-expect = require 'chai' .expect
+# PermitAllower = index.allower.PermitAllower
 
-PermitAllower = requires.lib 'allower' .PermitAllower
-
-RepoGuardian  = requires.lib + 'rule/repo/' .RepoGuardian
-RuleRepo      = requires.lib + 'rule/repo/' .RuleRepo
+RepoGuardian  = repo.RepoGuardian
+RuleRepo      = repo.RuleRepo
 
 expect = require 'chai' .expect
 
@@ -35,8 +35,8 @@ describe 'RepoGuardian' ->
       before ->
         guardian = new RepoGuardian repo
 
-      specify 'should create and return' ->
-        guardian.permit-allower!.should.be.instanceOf PermitAllower
+#      specify 'should create and return' ->
+#        guardian.permit-allower!.should.be.instanceOf PermitAllower
 
     context 'repo does not allow access' ->
       before ->

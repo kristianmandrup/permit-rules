@@ -1,13 +1,12 @@
-FingerPrinter = require 'access_request' .fingerprint.FingerPrinter
+FingerPrinter = require 'fingerprint' .FingerPrinter
 Debugger      = require '../../util'    .Debugger
-Permit        = require '../../permit'  .Permit
 
 module.exports = class RulesCache implements Debugger
   (@object = {}, @fp-class = FingerPrinter) ->
     @clear-cache!
 
   init: ->
-    @observe Permit.registry
+    @observe @registry if @registry
     @fingerprint!
 
   # should be cleared whenever a new permit is added and activated.
