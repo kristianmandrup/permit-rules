@@ -1,5 +1,7 @@
 # Rules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/permit-rules.svg)](https://greenkeeper.io/)
+
 * [Rules](https://github.com/kristianmandrup/permit-authorize/wiki/Rules)
 
 ## Code
